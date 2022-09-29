@@ -115,6 +115,6 @@
 
         ?>
 
-
+sprawdzanie zmian commitu i innych
     </body>
 </html>
