@@ -6,5 +6,6 @@ for ($i=0; $i<count($tablica); $i++)
 {
   if($tablica[$i]=="hello") $zlicz++;
 }
+echo  'hello hello world<br>';
 echo  'poszukiwanych wyrazów '. $zlicz;
 ?>
