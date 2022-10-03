@@ -115,6 +115,6 @@
 
         ?>
 
-sprawdzanie zmian commitu i innych  sadasd asdas dasdasdas d as
+
     </body>
 </html>
