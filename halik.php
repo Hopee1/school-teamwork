@@ -113,8 +113,32 @@
             echo '<br>';
         }*/
 
-        ?>
+        //cw 6.12
+/*$str="jakis  jakis jakis   ciag znakow";
+   $tablica=explode(" ", $str);
+$zlicz=0;
+for ($i=0; $i<count($tablica); $i++)
+{
+  if($tablica[$i]=="jakis") $zlicz++;
+}
+echo  'poszukiwanych wyrazów '. $zlicz;
+*/
 
+
+//cw 6.13
+/*$tekst = "Ala ma kota";
+
+$tablica = array();
+$tablica['Ala'] = "Ola";
+$tablica['kota'] = "psa";
+
+echo "Tekst zrodlowy przed zamiana: <b>".$tekst.'</b><br>';
+
+foreach($tablica AS $nr => $wyraz)
+   $tekst = str_replace($nr,$wyraz,$tekst);
+echo "Tekst zrodlowy po zamianie: <b>".$tekst.'</b><br>';
+  */      ?>
+        
 
     </body>
 </html>
