@@ -17,13 +17,35 @@
     $katalog = "./katcw6_14";
     $tablica = scandir($katalog);
     foreach($tablica as $plik){
-        echo "$plik<br/>";
+      
+      $kat = 'katcw6_14/test';
+      $plk = 'katcw6_14/plik.txt'; //tak tak | nie tak | tak nie| nie nie | 
 
-        is_dir("test");
-        is_file("plik.txt");
+      if (is_dir("$kat") && is_dir("$plk")){
+        echo "$kat,  -katalog<br/>";
+        echo "$plk,  -katalog<br/>";
+        break;
+      }
+      elseif (is_file("$kat") && is_file("$plk")){
+        echo "$kat, -plik <br/>";
+        echo "$plk, -plik<br/>";
+        break;
+      }
+      elseif (is_dir("$kat") && is_file("$plk")){
+        echo "$kat, -katalog<br/>";
+        echo "$plk, -plik<br/>";
+        break;
+      }
+      elseif (is_file("$kat") && is_dir("$plk")){
+        echo "$kat, -plik<br/>";
+        echo "$plk, -katalog<br/>";
+        break;
+      }
+       
+
     
     }
-//dokończyć
+
   ?>
 
 
