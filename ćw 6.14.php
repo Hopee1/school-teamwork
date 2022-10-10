@@ -1,6 +1,6 @@
 <?php
 $fileList = glob('6.14/*');
-
+$fileList2 = glob('6.14/folder1/*')
 echo 'pliki<br>';
 foreach($fileList as $filename){
 
@@ -21,4 +21,5 @@ foreach($fileList as $filename){
    }   
 
 }
+foreach($fileList2)
 ?>
