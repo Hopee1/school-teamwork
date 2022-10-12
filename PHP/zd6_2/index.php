@@ -1,10 +1,11 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="c.css">
     </head>
 
     <body>
+    
 
     <div class="header">
         <div class="side-nav">

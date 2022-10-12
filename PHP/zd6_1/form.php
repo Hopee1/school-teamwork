@@ -19,6 +19,7 @@ if (isset($_POST['komentarz'])) { //sprawdzanie za pomocą metody POST przesłan
   <head>
   <title>Opinie użytkowników na temat żółwi</title>
   <meta charset="UTF-8">
+  
   </head>
 
   <body>
