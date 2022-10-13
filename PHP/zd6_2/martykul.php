@@ -23,12 +23,6 @@
 
     <body>
     
-       
-
-     
-
-        
-    
     <div class="header">
 
         <div class="art"><?php 
@@ -42,15 +36,8 @@
             $tekst = fread($fp, 30);
             echo "$tekst<br/>";
             }
-
-       
-    
-
         ?>
         
-
-  
-    
         </div>
 
         <div class="forma">
@@ -82,7 +69,6 @@
             ?>
         </div>
 
-
         <div class="header">
         <div class="side-nav">
             <a href="#" class="logo" >
@@ -101,4 +87,3 @@
         ?>
     </body>
 </html>
-
