@@ -4,6 +4,24 @@ dzania. Utwórz skrypt przetwarzający dane przesłane z formularza. W skrypcie 
 być sprawdzane wypełnienie wszystkich pól.
 
 <!DOCTYPE HTML>
+
+<?php 
+
+
+
+
+
+
+
+
+
+
+
+?>
+
+
+
+
 <html>
     <head>
         <title>Formularz rejestracyjny</title>
@@ -37,7 +55,7 @@ być sprawdzane wypełnienie wszystkich pól.
             <input type="text" name="pl" value=" " size="30"><br>
             Matematyka:<br>
             <input type="text" name="mt" value=" " size="30"><br>
-            Język opcy:<br>
+            Język obcy:<br>
             <input type="text" name="jo" value=" " size="30"><br>
             
             <input type="checkbox" name="opcje" maxlength="1">
