@@ -39,29 +39,17 @@ być sprawdzane wypełnienie wszystkich pól.
     </head>
 
     <body>
-        <form action="skrypt_form.php" method="post">
+        <form class="apply-form" action="skrypt_form.php" method="post">
             <p>Formularz Przyjęcia do szkoły:</p>
-            Nazwisko:<br>
-            <input type="text" name="nazw" value=" " size="30"><br>
-            Imię<br>
-            <input type="text" name="im" value=" " size="30"><br>
-            telefon:<br>
-            <input type="text" name="zaw" value=" " size="30"><br>
-            Adres e-mail:<br>
-            <input type="text" name="adr" value=" " size="30">
-            <p id="wyk">Wyniki egzaminu ósmoklasisty</p>
-            <p id="wyk">Podaj w procentach</p>
-            Polski:<br>
-            <input type="text" name="pl" value=" " size="30"><br>
-            Matematyka:<br>
-            <input type="text" name="mt" value=" " size="30"><br>
-            Język obcy:<br>
-            <input type="text" name="jo" value=" " size="30"><br>
-            
-            <input type="checkbox" name="opcje" maxlength="1">
-            Zgadzam się na przetwarzanie moich danych osobowych<br><br>
-            <input type="submit" value="Wyślij" name="wyslij">&nbsp; &nbsp; 
-            <input type="reset" value="Wyczyść" name="zeruj">
+            <input type="text" name="name" placeholder="Full name">
+            <input type="text" name="mail" placeholder="Your e-mail">
+            <input type="text" name="address" placeholder="Your addres">
+            <input type="text" name="postcode" placeholder="Post code">
+            <p>Wyniki egzaminu ósmoklasisty</p>
+            <input type="text" name="math" placeholder="Math">
+            <input type="text" name="pol" placeholder="Pol">
+            <input type="text" name="jo" placeholder="JO">
+            <button type="submit" name="submit">SEND</button>
         </form>
     </body>
 </html>
